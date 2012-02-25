@@ -45,17 +45,16 @@ code {
 </head>
 <body>
 
-<h1>Welcome to CodeIgniter!</h1>
+<h1>Welcome to agitcraft API!</h1>
 
 <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 <ul>
-	<li><a href="<?php echo site_url('api/example/users');?>">Users</a> - defaulting to XML</li>
-	<li><a href="<?php echo site_url('api/example/users/format/csv');?>">Users</a> - get it in CSV</li>
-	<li><a href="<?php echo site_url('api/example/user/id/1');?>">User #1</a> - defaulting to XML</li>
-	<li><a href="<?php echo site_url('api/example/user/id/1/format/json');?>">User #1</a> - get it in JSON</li>
-	<li><a href="<?php echo site_url('api/example/allusers/format/json');?>">All Users</a> - get it in JSON</li>
-	<li><a id="ajax" href="<?php echo site_url('api/example/users/format/json');?>">Users</a> - get it in JSON (AJAX request)</li>
+	<li><a href="<?php echo site_url('api/visitors/getall');?>">All Visitors</a> - defaulting to XML</li>
+	<li><a href="<?php echo site_url('api/visitors/get/id/1');?>">Visitor #1</a> - defaulting to XML</li>
+	<li><a href="<?php echo site_url('api/visitors/get/id/1/format/json');?>">Visitor #1</a> - get it in JSON</li>
+	<li><a href="<?php echo site_url('api/visitors/getall/format/json');?>">All Visitors</a> - get it in JSON</li>
+	<li><a id="ajax" href="<?php echo site_url('api/visitors/getall/format/json');?>">Visitors</a> - get it in JSON (AJAX request)</li>
 </ul>
 
 <p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
